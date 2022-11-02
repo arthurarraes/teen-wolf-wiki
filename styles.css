@@ -1,0 +1,78 @@
+@font-face {
+	font-family: 'Intro';
+	src: url('font/Intro.otf') format('opentype');
+  }
+
+  @font-face {
+	font-family: 'Coves';
+	src: url('font/Coves Bold.otf') format('opentype');
+  }
+
+#titulo{
+	height: 18vh;
+    font-family: 'Intro';
+	font-weight: bold;
+	background-image: linear-gradient(#5c5858, black);
+	background-position: center top;
+	background-repeat: no-repeat;
+	color: White;
+	background-size: 100%, 100%;
+}
+
+#conteúdo{
+	background-color: black;
+	background-repeat: repeat;
+	background-size: 100%, 100%;
+}
+
+#Personagens-Principais{
+    font-family: "Coves";
+	color: white;
+}
+
+#personagens{
+	font-family: sans-serif;
+	color: white;
+	
+}
+
+a{
+	font-family: "Coves";
+	color: white;
+}
+
+#Temporadas{
+    font-family: "Coves";
+	color: white;
+}
+
+#espécies{
+	font-family: sans-serif;
+	color: white;
+}
+#Espécies{
+	font-family: "Coves";
+	color: white;
+}
+
+hr{
+	border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #9ca0a3, transparent); 
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
